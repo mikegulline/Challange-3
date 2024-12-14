@@ -2,19 +2,19 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { nightOwl } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { type Language } from '@/types';
 
-const prismStyles = [
-  'atomDark',
-  'coldarkDark',
-  'coyWithoutShadows',
-  'dracula',
-  'materialOceanic',
-  'nightOwl',
-  'nord',
-  'okaidia',
-  'oneDark',
-  'vs',
-  'vscDarkPlus',
-];
+// const prismStyles = [
+//   'atomDark',
+//   'coldarkDark',
+//   'coyWithoutShadows',
+//   'dracula',
+//   'materialOceanic',
+//   'nightOwl',
+//   'nord',
+//   'okaidia',
+//   'oneDark',
+//   'vs',
+//   'vscDarkPlus',
+// ];
 
 interface SyntaxProps {
   children: string;
